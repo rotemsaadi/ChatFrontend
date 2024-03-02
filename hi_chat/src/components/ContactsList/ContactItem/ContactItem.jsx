@@ -1,9 +1,8 @@
 import React from "react";
-import ProfilePic from "../../../assets/profilesImages/profilePic1.jpg";
+import ProfilePic from "../../../assets/profilePic1.jpg";
 import "./contact-item.css";
 
-export const ContactItem = ({ contact }) => {
-  console.log(contact);
+export const ContactItem = ({ contact, propfilePic }) => {
   return (
     <div>
       <div className="story-profile">
