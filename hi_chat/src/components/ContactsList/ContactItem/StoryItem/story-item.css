@@ -1,0 +1,14 @@
+.story-profile {
+  width: 80;
+  height: 80;
+  border-radius: 80 / 2;
+  border-width: 2;
+  margin-left: 10;
+  position: "relative";
+}
+
+.story-profile-image {
+  width: "95%";
+  height: "95%";
+  border-radius: 80 / 2;
+}

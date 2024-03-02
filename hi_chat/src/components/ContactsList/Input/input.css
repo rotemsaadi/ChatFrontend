@@ -1,0 +1,19 @@
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+.search-input {
+  position: absolute;
+  background-color: #121317;
+  border: 1px solid;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  margin-top: 5rem;
+  color: white;
+  padding-right: 30px; /* Adjust the padding to accommodate the icon */
+}
+
+.search-input::placeholder {
+  color: #dca2a24d;
+}
